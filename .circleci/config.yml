@@ -12,9 +12,9 @@ jobs:
     steps:
       - checkout
       - run:
-        - name: install dependencies
+          name: install dependencies
           command : npm install
       - run:
-        - name: install dependencies
+        - name: Run Tests
           command : npm run test
 
